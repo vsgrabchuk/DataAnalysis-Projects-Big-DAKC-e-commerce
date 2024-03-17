@@ -8,6 +8,7 @@ olist_customers_datase.csv - таблица с уникальными идент
 - customer_zip_code_prefix — почтовый индекс пользователя
 - customer_city — город доставки пользователя
 - customer_state — штат доставки пользователя
+
 olist_orders_dataset.csv - таблица заказов
 - order_id —  уникальный идентификатор заказа (номер чека)
 - customer_id —  позаказный идентификатор пользователя
@@ -25,6 +26,7 @@ olist_orders_dataset.csv - таблица заказов
 - order_delivered_carrier_date —  время передачи заказа в логистическую службу
 - order_delivered_customer_date —  время доставки заказа
 - order_estimated_delivery_date —  обещанная дата доставки
+
 olist_order_items_dataset.csv - товарные позиции, входящие в заказы
 - order_id —  уникальный идентификатор заказа (номер чека)
 - order_item_id —  идентификатор товара внутри одного заказа
